@@ -1,0 +1,52 @@
+.vcm_app_container {
+  margin-right: 20px;
+  > h3 {
+    background: #747677;
+    padding: 15px 20px;
+    margin: 10px 0 0 0;
+    color: white;
+  }
+  .vcm_app_body {
+    display: block;
+    overflow: hidden;
+    background: white;
+    padding: 0px 20px;
+    .section_header {
+      border-bottom: 1px solid black;
+      margin: 0 -20px 20px;
+      padding: 10px 20px;
+      background: #f1f1f1;
+      .section_title {
+        display: inline-block;
+        margin: 10px 0px 0px 0px;
+      }
+      .section_actions {
+        float: right;
+      }
+    }
+
+    .section_body{
+      &.body_narrow {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px;
+      }
+    }
+  }
+}
+
+.el-pagination {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.form_editor {
+  .el-form-item__label {
+    line-height: 1;
+    font-weight: 500;
+  }
+}
+
+.el-select {
+  width: 100%;
+}
